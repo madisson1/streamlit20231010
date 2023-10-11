@@ -31,7 +31,7 @@ x5 = st.slider('Car', min_value=1, max_value=100, value=3)
 
 x6 = st.slider('Landsize', min_value=1, max_value=100, value=3)
 
-with open("model.pkl", "rb") as model_file:
+with open("modelfolder/model.pkl", "rb") as model_file:
           loaded_model = pickle.load(model_file)
         
         
